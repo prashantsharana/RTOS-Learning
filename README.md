@@ -10,6 +10,33 @@ C:\RTOS\FreeRTOS\FreeRTOS\Demo\CORTEX_LM3S6965_GCC_QEMU
 
 before building.
 
+## How To Build
+
+### Prerequisites
+
+- FreeRTOS Source Tree
+- QEMU ARM Emulator
+- ARM GNU Toolchain
+- CMake
+- Ninja
+
+### Build Steps
+
+1. Clone this repository
+
+2. Copy the desired lab folder contents into:
+
+C:\RTOS\FreeRTOS\FreeRTOS\Demo\CORTEX_LM3S6965_GCC_QEMU
+
+3. Open PowerShell
+
+4. Build:
+
+```powershell
+cmake --preset debug
+cmake --build build
+
+
 \# RTOS Learning Labs
 
 
