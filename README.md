@@ -1,3 +1,15 @@
+IMPORTANT
+
+The lab folders are snapshots of the project.
+
+They cannot be built directly after cloning.
+
+Copy the desired lab contents into:
+
+C:\RTOS\FreeRTOS\FreeRTOS\Demo\CORTEX_LM3S6965_GCC_QEMU
+
+before building.
+
 \# RTOS Learning Labs
 
 
