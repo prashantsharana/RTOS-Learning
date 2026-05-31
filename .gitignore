@@ -1,0 +1,24 @@
+# Build outputs
+build/
+*/build/
+
+# Visual Studio
+.vs/
+*/.vs/
+
+# Eclipse
+.settings/
+*/.settings/
+
+# Binary files
+*.elf
+*.o
+*.obj
+*.map
+*.exe
+
+# Database files
+*.db
+*.opendb
+*.sqlite
+*.ipch
